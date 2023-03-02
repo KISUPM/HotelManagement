@@ -134,7 +134,8 @@ CREATE TABLE `stay_in` (
   `AmountGuest` int(1) NOT NULL,
   `StayInState` char(1) NOT NULL,
   `StayInNumber` char(9) NOT NULL,
-  `CID` char(13) NOT NULL
+  `CID` char(13) NOT NULL,
+  `Request` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
